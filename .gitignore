@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Secrets
+.env
+*.env
+secrets.env
+
+# AWS / cloud stuff
+*.pem
+*.key
+*.crt
+.aws/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# VSCode
+.vscode/
